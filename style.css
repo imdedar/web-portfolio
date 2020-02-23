@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family:'Merriweather', 'Anton' ;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Sacramento';
+    font-weight: 800;
+    color: #66bfbf;
+}
+h2{
+    font-family: 'Sacramento';
+    font-weight:bold;
+    font-size: 2.5rem;
+    color: #5b8c5a;  
+}
+.discreption{
+ padding: 0 20px;   
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+}
+.special-name{
+    color: #5b8c5a;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Sacramento';
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    text-align: justify;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.top-banner{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+       
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.button{
+    text-decoration: none;
+    color: rgb(49, 188, 212);
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 20.27027027027027px;
+    -moz-border-radius: 20.27027027027027px;
+    border-radius: 20.27027027027027px;
+    background: rgb(210, 20, 20);
+    background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
+}
+.button:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+    background-color:#a39bec;
+}
+.experience-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px  40px greenyellow;
+    border-radius: 5px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#Junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+.exp{
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 2.5rem;
+}
+
+
